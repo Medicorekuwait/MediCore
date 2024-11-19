@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCore Health Kuwait</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #04525C; /* Updated background color */
+            color: white; /* Text color adjusted for contrast */
+        }
+        header {
+            background-color: #027373; /* Slightly lighter shade for header */
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #03474E; /* A darker shade for navigation */
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #05697A;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+            background: #FFFFFF; /* White background for sections */
+            color: black; /* Black text for readability */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            background: #03474E; /* Match footer with navigation */
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .product-item {
+            flex: 1 1 calc(25% - 10px);
+            padding: 10px;
+            background: #E8F1F2; /* Soft contrasting background for product items */
+            border: 1px solid #DDD;
+            text-align: center;
+            color: black;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            min-width: 160px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .dropdown-content a:hover {
+            background-color: #DDD;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MediCore Health Kuwait</h1>
+    <p>Your Trusted Partner for Disposable Materials</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#business">Business</a>
+    <div class="dropdown">
+        <a href="#">Products</a>
+        <div class="dropdown-content">
+            <a href="#medical">Medical</a>
+            <a href="#non-medical">Non-Medical</a>
+        </div>
+    </div>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About MediCore</h2>
+        <p>MediCore Health Kuwait, established in 20XX, is a trusted retail supplier of disposable materials in the medical and non-medical sectors. We are committed to providing quality products tailored to meet the diverse needs of our customers in Kuwait and beyond.</p>
+    </section>
+
+    <section id="business">
+        <h2>Business</h2>
+        <p>At MediCore Health Kuwait, we specialize in the supply of:</p>
+        <ul>
+            <li><b>Medical Disposable Materials:</b> Essential for healthcare professionals and institutions.</li>
+            <li><b>Non-Medical Disposable Materials:</b> Suitable for everyday commercial and personal use.</li>
+        </ul>
+    </section>
+
+    <section id="products">
+        <h2 id="medical">Medical Disposable Materials</h2>
+        <div class="products">
+            <div class="product-item">Surgical Masks</div>
+            <div class="product-item">Latex Gloves</div>
+            <div class="product-item">Disposable Syringes</div>
+            <div class="product-item">Gauze Pads</div>
+            <div class="product-item">IV Cannulas</div>
+            <div class="product-item">Medical Aprons</div>
+            <div class="product-item">Face Shields</div>
+            <div class="product-item">Disposable Shoe Covers</div>
+            <div class="product-item">Nebulizer Masks</div>
+            <div class="product-item">Blood Collection Tubes</div>
+        </div>
+
+        <h2 id="non-medical">Non-Medical Disposable Materials</h2>
+        <div class="products">
+            <div class="product-item">Paper Cups</div>
+            <div class="product-item">Plastic Forks and Spoons</div>
+            <div class="product-item">Aluminum Foil Containers</div>
+            <div class="product-item">Garbage Bags</div>
+            <div class="product-item">Plastic Wraps</div>
+            <div class="product-item">Napkins</div>
+            <div class="product-item">Disposable Food Trays</div>
+            <div class="product-item">Drinking Straws</div>
+            <div class="product-item">Dust Covers</div>
+            <div class="product-item">Non-Woven Tote Bags</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><b>Phone:</b> +965 60499377</p>
+        <p><b>Email:</b> <a href="mailto:vargkv@gmail.com">vargkv@gmail.com</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 MediCore Health Kuwait. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
